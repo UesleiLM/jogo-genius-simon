@@ -1,0 +1,65 @@
+
+body{
+    background-color: rgb(39, 36, 36);
+    text-align: center;
+    margin-top: 200px;
+}
+h1{
+    margin-top: -80px;
+}
+button{
+    font-size: 30px;
+    border-radius: 9px;
+    width: 200px;
+    height: 50px;
+    background-color: burlywood;    
+}
+button:hover{
+    transform: scale(1.1);
+    cursor: pointer;
+    transition: 200ms linear;
+    box-shadow: inset 0px 0px 0px 3px cyan;
+}
+
+.painel{
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+    opacity: 0.5;
+    transition: opacity 0.4s ease-in-out; 
+}
+.painel:hover{
+    opacity: 1;
+    transition: 200ms linear;
+    transform: scale(1.03);
+    cursor: pointer;
+    box-shadow: inset 0px 0px 0px 3px white;
+    
+}
+
+.baixo-direito{
+    background-color: red;
+    border-bottom-right-radius: 200px;
+}
+.baixo-esquerdo{
+    background-color: blue;
+    border-bottom-left-radius: 200px;
+}
+.cima-direito{
+    background-color: green;
+    border-top-right-radius: 200px;
+}
+.cima-esquerdo{
+    background-color: yellow;
+    border-top-left-radius: 200px;
+}
+.centro{
+    display: inline-block;
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    background-color: black;
+    top: 290px;
+    left: 550px;
+}
